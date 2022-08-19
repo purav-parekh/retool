@@ -1,0 +1,14 @@
+id: $header
+type: frame
+subtype: Frame
+template:
+  ordered:
+    - type: header
+    - sticky: true
+    - style:
+        ordered:
+          - primary-surface: rgb(13, 13, 46)
+          - primary-background: rgb(13, 13, 46)
+style:
+  ordered: []
+createdAt: 2022-06-10T02:38:25.695Z

@@ -1,0 +1,26 @@
+id: text9
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - _defaultValue: ''
+    - tooltipText: ''
+    - value: '**Total Users:** {{ GET_Users.data.totalRecords }}'
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer4
+    subcontainer: 935bf
+    height: 0.6
+    width: 2
+createdAt: 2022-07-06T01:50:03.905Z

@@ -1,0 +1,405 @@
+id: table1
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered:
+          - scansettings:
+              ordered:
+                - falseDisplayValue: x
+          - entities:
+              ordered:
+                - falseDisplayValue: x
+          - assets:
+              ordered:
+                - falseDisplayValue: x
+          - visualization:
+              ordered:
+                - falseDisplayValue: x
+          - risks:
+              ordered:
+                - falseDisplayValue: x
+          - accounts:
+              ordered:
+                - falseDisplayValue: x
+          - risksignatures:
+              ordered:
+                - falseDisplayValue: x
+          - profiles:
+              ordered:
+                - falseDisplayValue: x
+          - packages:
+              ordered:
+                - falseDisplayValue: x
+          - apikeys:
+              ordered:
+                - falseDisplayValue: x
+          - querybuilder:
+              ordered:
+                - falseDisplayValue: x
+          - teams:
+              ordered:
+                - falseDisplayValue: x
+          - Custom Column 1:
+              ordered: []
+          - identities:
+              ordered:
+                - falseDisplayValue: x
+          - automations:
+              ordered:
+                - falseDisplayValue: x
+          - datastores:
+              ordered:
+                - falseDisplayValue: x
+          - integrations:
+              ordered:
+                - falseDisplayValue: x
+    - columnWidths:
+        - object:
+            id: Custom Column 1
+            value: 90
+        - object:
+            id: profiles
+            value: 70
+        - object:
+            id: risks
+            value: 62
+        - object:
+            id: teams
+            value: 71
+        - object:
+            id: assets
+            value: 70
+        - object:
+            id: apikeys
+            value: 77
+        - object:
+            id: accounts
+            value: 80
+        - object:
+            id: entities
+            value: 70
+        - object:
+            id: packages
+            value: 81
+        - object:
+            id: identities
+            value: 79
+        - object:
+            id: automations
+            value: 99
+        - object:
+            id: integrations
+            value: 94
+        - object:
+            id: querybuilder
+            value: 103.5
+        - object:
+            id: scansettings
+            value: 103
+        - object:
+            id: datastores
+            value: 89
+        - object:
+            id: visualization
+            value: 98
+    - showSummaryFooter: false
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered:
+          - scansettings: Scan Settings
+          - entities: Entities
+          - assets: Assets
+          - visualization: Visualization
+          - risks: Risks
+          - accounts: Accounts
+          - risksignatures: Risk Signatures
+          - profiles: Profiles
+          - packages: Packages
+          - apikeys: API Keys
+          - querybuilder: Query Builder
+          - teams: Teams
+          - Custom Column 1: Feature
+          - identities: Identities
+          - automations: Automations
+          - datastores: Datastores
+          - integrations: Integrations
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - scansettings: ''
+          - entities: ''
+          - assets: ''
+          - visualization: ''
+          - risks: ''
+          - accounts: ''
+          - risksignatures: ''
+          - profiles: ''
+          - packages: ''
+          - apikeys: ''
+          - querybuilder: ''
+          - teams: ''
+          - Custom Column 1: ''
+          - identities: ''
+          - automations: ''
+          - datastores: ''
+          - integrations: ''
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered:
+          - Custom Column 1: TextDataCell
+          - risks: CheckboxDataCell
+          - teams: CheckboxDataCell
+          - apikeys: CheckboxDataCell
+          - accounts: CheckboxDataCell
+          - entities: CheckboxDataCell
+          - profiles: CheckboxDataCell
+          - packages: CheckboxDataCell
+          - datastores: CheckboxDataCell
+          - identities: CheckboxDataCell
+          - scansettings: CheckboxDataCell
+          - automations: CheckboxDataCell
+          - assets: CheckboxDataCell
+          - integrations: CheckboxDataCell
+          - querybuilder: CheckboxDataCell
+          - visualization: CheckboxDataCell
+          - risksignatures: CheckboxDataCell
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered: []
+    - _columnSummaryTypes:
+        ordered:
+          - Custom Column 1: ''
+          - risks: checkedCount
+          - teams: checkedCount
+          - apikeys: checkedCount
+          - accounts: checkedCount
+          - entities: checkedCount
+          - profiles: checkedCount
+          - packages: checkedCount
+          - datastores: checkedCount
+          - identities: checkedCount
+          - scansettings: checkedCount
+          - automations: checkedCount
+          - assets: checkedCount
+          - integrations: checkedCount
+          - querybuilder: checkedCount
+          - visualization: checkedCount
+          - risksignatures: checkedCount
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: null
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered: []
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: true
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{Entitlements.selectedRow.data.permissions}}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered:
+          - scansettings: center
+          - entities: center
+          - assets: center
+          - visualization: center
+          - risks: center
+          - accounts: center
+          - risksignatures: center
+          - profiles: center
+          - packages: center
+          - apikeys: center
+          - querybuilder: center
+          - teams: center
+          - Custom Column 1: left
+          - identities: center
+          - automations: center
+          - datastores: center
+          - integrations: center
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: true
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - showRefreshButton: true
+    - pageSize: '20'
+    - useDynamicColumnSettings: true
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered:
+          - Custom Column 1: ''
+          - risks: ''
+          - teams: ''
+          - apikeys: ''
+          - accounts: ''
+          - entities: ''
+          - profiles: ''
+          - packages: ''
+          - datastores: ''
+          - identities: ''
+          - scansettings: ''
+          - automations: ''
+          - assets: ''
+          - integrations: ''
+          - querybuilder: ''
+          - visualization: ''
+          - risksignatures: ''
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: true
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered:
+          - Custom Column 1: false
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered:
+          - scansettings: true
+          - entities: true
+          - assets: true
+          - visualization: true
+          - risks: true
+          - accounts: true
+          - risksignatures: true
+          - profiles: true
+          - packages: true
+          - apikeys: true
+          - querybuilder: true
+          - teams: true
+          - identities: true
+          - automations: true
+          - datastores: true
+          - integrations: true
+    - columnMappers:
+        ordered:
+          - scansettings: '{{GET_Entitlements.data.data[i].permissions.scansettings[self]}}'
+          - entities: '{{GET_Entitlements.data.data[i].permissions.entities[self]}}'
+          - assets: '{{GET_Entitlements.data.data[i].permissions.assets[self]}}'
+          - visualization: '{{GET_Entitlements.data.data[i].permissions.visualization[self] }}'
+          - risks: '{{GET_Entitlements.data.data[i].permissions.risks[self]}}'
+          - accounts: '{{GET_Entitlements.data.data[i].permissions.accounts[self]}}'
+          - risksignatures: >-
+              {{GET_Entitlements.data.data[i].permissions.risksignatures[self]
+              }}
+          - profiles: '{{GET_Entitlements.data.data[i].permissions.profiles[self] }}'
+          - packages: '{{GET_Entitlements.data.data[i].permissions.packages[self]}}'
+          - apikeys: '{{GET_Entitlements.data.data[i].permissions.risks[self]}}'
+          - querybuilder: '{{GET_Entitlements.data.data[i].permissions.querybuilder[self]}}'
+          - teams: '{{GET_Entitlements.data.data[i].permissions.teams[self]}}'
+          - Custom Column 1: '{{ActionsArray.value[i]}}'
+          - identities: '{{GET_Entitlements.data.data[i].permissions.identities[self]}}'
+          - automations: '{{GET_Entitlements.data.data[i].permissions.automations[self]}}'
+          - datastores: '{{GET_Entitlements.data.data[i].permissions.risks[self]}}'
+          - integrations: '{{GET_Entitlements.data.data[i].permissions.integrations[self]}}'
+    - showClearSelection: false
+    - doubleClickToEdit: false
+    - overflowType: pagination
+    - _reverseSortedDisplayedDataIndices: null
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns: []
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns:
+        - Custom Column 1
+        - risks
+        - teams
+        - assets
+        - apikeys
+        - accounts
+        - entities
+        - profiles
+        - packages
+        - datastores
+        - identities
+        - automations
+        - integrations
+        - querybuilder
+        - scansettings
+        - visualization
+        - risksignatures
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns:
+        - Custom Column 1
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: true
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: permissionsContainer
+    subcontainer: a3dcb
+    row: -1.3322676295501878e-15
+    height: 8.200000000000001
+    width: 12
+createdAt: 2022-06-10T17:24:49.878Z

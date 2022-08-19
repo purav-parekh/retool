@@ -1,0 +1,23 @@
+id: authLogin1
+type: widget
+subtype: AuthLoginWidget
+template:
+  ordered:
+    - label: Authenticate APIs
+    - authResourceName: dabe5672-4c7e-4a56-a9be-e64acf11f95b
+    - authType: custom
+    - style:
+        ordered:
+          - accent-background: '#3c92dc'
+    - hidden: 'true'
+style:
+  ordered: []
+position2:
+  position2:
+    container: Header
+    subcontainer: 9c2a1
+    row: 0.6
+    col: 10
+    height: 1
+    width: 2
+createdAt: 2022-06-15T22:32:43.797Z

@@ -1,0 +1,20 @@
+id: filterUsers
+type: function
+subtype: Function
+template:
+  ordered:
+    - funcBody: |-
+        const users = {{ GET_Users.data.data }}
+        const totalRecs = {{GET_Users.data.totalRecords}}
+        const filters = {{switchGroup3.value}}
+        const u = []
+        for(let i =0;i<filters.length;i++){
+          let us = users.filter((user) => {
+            return (user.status) === filters[i]
+          })
+          u.push(...us)
+        }
+        return u.length > 0 ? [u,totalRecs] : [users,totalRecs]
+    - value: ''
+createdAt: 2022-07-08T00:50:00.173Z
+folder: Users_API

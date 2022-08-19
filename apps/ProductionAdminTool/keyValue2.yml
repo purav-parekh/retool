@@ -1,0 +1,76 @@
+id: keyValue2
+type: widget
+subtype: KeyValueMapWidget
+template:
+  ordered:
+    - rowHeaderNames:
+        ordered: []
+    - rowFormats:
+        ordered:
+          - cloudScanfrequency: default
+    - valueTitle: Value
+    - data: '{{Entitlements.selectedRow.data.limits}}'
+    - prevRowMappers:
+        ordered:
+          - cloudScanfrequency: '{{Entitlements.selectedRow.data.limits.cloudScanfrequency}}'
+    - rowMappersRenderAsHTML:
+        ordered: []
+    - rowVisibility:
+        ordered:
+          - a: true
+          - b: true
+          - c: true
+          - permissions: true
+          - scanprofiles: true
+          - restrictions: true
+          - users: true
+          - retainsnapshot: true
+          - cloudScanfrequency: false
+          - name: true
+          - updatedAt: true
+          - apikeys: true
+          - apiratelimits: true
+          - teams: true
+          - limits: true
+          - id: true
+          - cloudaccounts: true
+          - createdAt: true
+          - automations: true
+          - description: true
+    - prevRowFormats:
+        ordered:
+          - cloudScanfrequency: default
+    - rowMappers:
+        ordered:
+          - cloudScanfrequency: '{{Entitlements.selectedRow.data.limits.cloudScanfrequency}}'
+    - rows:
+        - a
+        - b
+        - c
+        - id
+        - name
+        - description
+        - permissions
+        - limits
+        - restrictions
+        - createdAt
+        - updatedAt
+        - teams
+        - users
+        - automations
+        - apiratelimits
+        - cloudaccounts
+        - retainsnapshot
+        - cloudScanfrequency
+        - apikeys
+        - scanprofiles
+    - keyTitle: Key
+style:
+  ordered: []
+position2:
+  position2:
+    container: permissionsContainer
+    subcontainer: 976be
+    height: 6.8
+    width: 6
+createdAt: 2022-06-10T17:59:04.119Z

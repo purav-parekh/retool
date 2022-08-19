@@ -1,0 +1,84 @@
+id: keyValue1
+type: widget
+subtype: KeyValueMapWidget
+template:
+  ordered:
+    - rowHeaderNames:
+        ordered: []
+    - rowFormats:
+        ordered:
+          - cloudScanfrequency: default
+          - vulnerabilityscan: boolean
+          - customroles: boolean
+    - valueTitle: Value
+    - data: '{{Entitlements.selectedRow.data.restrictions}}'
+    - prevRowMappers:
+        ordered: []
+    - rowMappersRenderAsHTML:
+        ordered:
+          - cloudScanfrequency: false
+          - vulnerabilityscan: false
+    - rowVisibility:
+        ordered:
+          - a: true
+          - b: true
+          - c: true
+          - permissions: true
+          - restrictions: true
+          - users: true
+          - retainsnapshot: true
+          - cloudScanfrequency: true
+          - name: true
+          - customroles: true
+          - updatedAt: true
+          - apiratelimits: true
+          - teams: true
+          - limits: true
+          - vulnerabilityscan: true
+          - id: true
+          - cloudaccounts: true
+          - createdAt: true
+          - automations: true
+          - description: true
+    - style:
+        ordered:
+          - primary-text: ''
+    - prevRowFormats:
+        ordered:
+          - cloudScanfrequency: default
+          - vulnerabilityscan: boolean
+          - customroles: boolean
+    - rowMappers:
+        ordered: []
+    - rows:
+        - a
+        - b
+        - c
+        - id
+        - name
+        - description
+        - permissions
+        - limits
+        - restrictions
+        - createdAt
+        - updatedAt
+        - teams
+        - users
+        - automations
+        - apiratelimits
+        - cloudaccounts
+        - retainsnapshot
+        - cloudScanfrequency
+        - customroles
+        - vulnerabilityscan
+    - keyTitle: Key
+style:
+  ordered: []
+position2:
+  position2:
+    container: permissionsContainer
+    subcontainer: 0f6bf
+    row: 0.20000000000000417
+    height: 3.2
+    width: 3
+createdAt: 2022-06-10T17:55:08.576Z

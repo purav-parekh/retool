@@ -1,0 +1,19 @@
+id: jsonExplorer4
+type: widget
+subtype: JSONExplorerWidget
+template:
+  ordered:
+    - value: "{\n  \"name\": {{entName.value}},\n  \"description\": {{entDesc.value}},\n  \"permissions\": {\n    \"risks\": {{entRisks.value}},\n    \"teams\": {{entTeams.value}},\n    \"assets\": {{entAssets.value}},\n    \"apikeys\": {{entApiKeys.value}},\n    \"accounts\": {{entAccounts.value}},\n    \"entities\": {{entEntities.value}},\n    \"packages\": {{entPackages.value}},\n    \"profiles\": {{entProfiles.value}},\n    \"datastores\":{{entDataStores.value}},\n    \"identities\": {{entIdentities.value}},\n    \"automations\": {{entAutomations.value}},\n    \"integrations\": {{entIntegrations.value}},\n    \"querybuilder\": {{entQueryBuilder.value}},\n    \"scansettings\": {{entScanSettings.value}},\n    \"visualization\": {{entVisualization.value}},\n    \"risksignatures\": {{entRiskSignatures.value}}\n  },\n    \"limits\": {\n      \"teams\": {{teamsLimit.value}},\n      \"users\": {{usersLimit.value}},\n      \"automations\": {{automationsLimit.value}},\n      \"apiratelimits\": {{apiRateLimit.value}},\n      \"cloudaccounts\": {{cloudAccLimit.value}},\n      \"retainsnapshot\": {{snapshotsLimit.value}},\n      \"cloudScanfrequency\": {\n      \"FULL\": {\n        \"limit\": {{cloudScanLimit.value}},\n        \"durationSecs\": {{cloudScanDuration.value}}\n      },\n      \"INCREMENTAL\": {\n        \"intervalSecs\": {{cloudScanInterval.value}}\n      }\n      }\n    },\n    \"restrictions\": {\n    \t\"customroles\": {{customRole.value}},\n      \"vulnerabilityscan\": {{vulnerabilityScan.value}}\n    }\n}"
+    - html: false
+    - expandNodes: true
+    - hidden: 'true'
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer2
+    subcontainer: 6857d
+    row: 0.20000000000000107
+    height: 10
+    width: 4
+createdAt: 2022-06-12T21:57:42.982Z

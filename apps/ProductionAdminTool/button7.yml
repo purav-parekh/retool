@@ -1,0 +1,33 @@
+id: button7
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: null
+    - hidden: false
+    - text: Change Status
+    - showInEditor: false
+    - tooltipText: ''
+    - styleVariant: solid
+    - submit: false
+    - iconBefore: ''
+    - events:
+        ordered: []
+    - loading: false
+    - loaderPosition: auto
+    - disabled: '{{usersTable.selectedRow.data.status === ''active''}}'
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: usersTable
+    subcontainer: Custom Column 2
+    row: 3.6
+    col: 7
+    height: 1
+    width: 4
+createdAt: 2022-07-07T00:51:43.421Z

@@ -1,0 +1,17 @@
+id: jsonExplorer2
+type: widget
+subtype: JSONExplorerWidget
+template:
+  ordered:
+    - value: '{{Entitlements.selectedRow.data.restrictions}}'
+    - html: false
+    - expandNodes: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: Entitlements
+    subcontainer: restrictions
+    height: 10.4
+    width: 12
+createdAt: 2022-06-10T02:17:16.206Z

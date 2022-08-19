@@ -1,0 +1,93 @@
+id: MainPage
+type: widget
+subtype: ContainerWidget2
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+        - ''
+        - false
+        - ''
+    - heightType: auto
+    - currentViewKey: '{{ self.viewKeys[0] }}'
+    - iconByIndex:
+        array: []
+    - clickable: false
+    - _iconByIndex:
+        - bold/interface-user-multiple
+        - bold/money-cash-dollar-coin
+        - bold/travel-wayfinder-toilet-sign-man-woman
+        - bold/interface-user-check
+    - hidden: false
+    - showHeader: true
+    - hoistFetching: true
+    - views:
+        array: []
+    - showInEditor: false
+    - tooltipText: ''
+    - style:
+        ordered:
+          - background: rgb(255, 255, 255)
+          - border: rgb(209, 209, 209)
+    - hiddenByIndex:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+        - false
+        - 'true'
+    - currentViewIndex: null
+    - _hasMigratedNestedItems: true
+    - transition: fade
+    - itemMode: static
+    - _tooltipByIndex:
+        - ''
+        - ''
+        - ''
+        - ''
+    - tooltipByIndex:
+        array: []
+    - showFooter: false
+    - _viewKeys:
+        - Teams
+        - Plans
+        - Users
+        - Roles
+    - events:
+        ordered: []
+    - _ids:
+        - cef5a
+        - ef632
+        - 8b861
+        - 57b4a
+    - viewKeys:
+        array: []
+    - iconPositionByIndex:
+        array: []
+    - _iconPositionByIndex:
+        - left
+        - left
+        - left
+        - left
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - _labels:
+        - ''
+        - ''
+        - ''
+        - ''
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    row: 0.3999999999999986
+    height: 2
+    width: 12
+createdAt: 2022-06-16T21:04:40.420Z

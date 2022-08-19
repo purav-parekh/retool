@@ -1,0 +1,45 @@
+id: button6
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: null
+    - hidden: 'true'
+    - text: '{{teamsTable.selectedRow.data.isEnabled ? ''Disable'' : ''Enable''}} Team'
+    - showInEditor: false
+    - tooltipText: ''
+    - style:
+        ordered:
+          - background: '{{teamsTable.selectedRow.data.isEnabled ? ''danger'' : ''green''}}'
+    - styleVariant: solid
+    - submit: false
+    - iconBefore: ''
+    - events:
+        - ordered:
+            - event: click
+            - type: datasource
+            - method: trigger
+            - pluginId: DISABLE_TEAM
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: teamsTable
+    subcontainer: Custom Column 2
+    row: 7.200000000000003
+    col: 1
+    height: 1
+    width: 10
+createdAt: 2022-07-05T21:18:09.508Z

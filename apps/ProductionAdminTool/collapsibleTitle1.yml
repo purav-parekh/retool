@@ -1,0 +1,26 @@
+id: collapsibleTitle1
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - _defaultValue: ''
+    - tooltipText: ''
+    - value: '#### Teams'
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: teamsContainer
+    rowGroup: header
+    height: 0.8
+    width: 9
+createdAt: 2022-06-10T22:44:35.085Z

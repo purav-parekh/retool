@@ -1,0 +1,269 @@
+id: usersTable
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: true
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered:
+          - invitedDate:
+              ordered:
+                - manageTimeZone: true
+                - dateFormat: MMM d, yyyy
+                - valueTimeZone: '00:00'
+                - displayTimeZone: local
+          - joinedDate:
+              ordered:
+                - manageTimeZone: true
+                - dateFormat: MMM d, yyyy
+                - valueTimeZone: '00:00'
+                - displayTimeZone: local
+          - Custom Column 2:
+              ordered: []
+          - createdAt:
+              ordered:
+                - manageTimeZone: true
+                - dateFormat: MMM d, yyyy
+                - valueTimeZone: '00:00'
+                - displayTimeZone: local
+          - updatedAt:
+              ordered:
+                - manageTimeZone: true
+                - dateFormat: MMM d, yyyy
+                - valueTimeZone: '00:00'
+                - displayTimeZone: local
+          - isEnabled:
+              ordered:
+                - falseDisplayValue: x
+    - columnWidths:
+        - object:
+            id: id
+            value: 64.6500015258789
+        - object:
+            id: role
+            value: 84.65000915527344
+        - object:
+            id: status
+            value: 89.3125
+    - showSummaryFooter: false
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered:
+          - Custom Column 1: Total Teams
+          - name: Name
+          - email: Email
+          - status: Status
+          - Custom Column 2: Actions
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - invitedDate: ''
+          - plan: ''
+          - name: ''
+          - updatedAt: ''
+          - '0': ''
+          - '1': ''
+          - '2': ''
+          - invitedBy: ''
+          - status: ''
+          - '3': ''
+          - '4': ''
+          - planName: ''
+          - '5': ''
+          - '6': ''
+          - role: ''
+          - Custom Column 1: ''
+          - '7': ''
+          - Custom Column 2: ''
+          - joinedDate: ''
+          - isEnabled: ''
+          - '8': ''
+          - '9': ''
+          - id: ''
+          - createdAt: ''
+          - email: ''
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered:
+          - invitedDate: DateTimeDataCell
+          - joinedDate: DateTimeDataCell
+          - Custom Column 2: ModalDataCell
+          - createdAt: DateTimeDataCell
+          - updatedAt: DateTimeDataCell
+          - isEnabled: CheckboxDataCell
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - Custom Column 1: false
+          - Custom Column 2: false
+    - _columnSummaryTypes:
+        ordered:
+          - invitedDate: ''
+          - joinedDate: ''
+          - Custom Column 2: ''
+          - createdAt: ''
+          - updatedAt: ''
+          - isEnabled: checkedCount
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: null
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered: []
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: true
+    - rowColor: '{{currentRow.status === ''active'' ? ''white'' : ''grey''}}'
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: true
+    - data: '{{filterUsers.value[0]}}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: null
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered:
+          - invitedDate: left
+          - updatedAt: left
+          - status: center
+          - Custom Column 1: center
+          - Custom Column 2: center
+          - joinedDate: left
+          - isEnabled: center
+          - createdAt: left
+          - email: center
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: true
+    - sortedDesc: false
+    - customButtonName: Reload Data
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - showRefreshButton: true
+    - pageSize: '20'
+    - useDynamicColumnSettings: false
+    - style:
+        ordered:
+          - cellText: rgb(13, 13, 46)
+          - headerBackground: rgb(247, 247, 247)
+          - headerText: rgb(13, 13, 46)
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: GET_Users
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered:
+          - invitedDate: ''
+          - joinedDate: ''
+          - Custom Column 2: ''
+          - createdAt: ''
+          - updatedAt: ''
+          - isEnabled: ''
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: true
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: '{{filterUsers.value[1]}}'
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered:
+          - Custom Column 1: false
+          - Custom Column 2: false
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered:
+          - invitedDate: '{{new Date(self)}}'
+          - joinedDate: '{{new Date(self)}}'
+          - Custom Column 1: '{{getIndividualUser.data.data.Teams.length}}'
+          - Custom Column 2: View Details
+          - createdAt: '{{new Date(self)}}'
+          - updatedAt: '{{new Date(self)}}'
+    - showClearSelection: false
+    - doubleClickToEdit: true
+    - overflowType: pagination
+    - _reverseSortedDisplayedDataIndices: null
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns: []
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns:
+        - id
+        - name
+        - email
+        - status
+        - Custom Column 1
+        - Custom Column 2
+    - sortByRawValue:
+        ordered:
+          - invitedDate: true
+    - calculatedColumns:
+        - Custom Column 1
+        - Custom Column 2
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer4
+    subcontainer: 935bf
+    row: 0.6000000000000005
+    height: 16.2
+    width: 8
+createdAt: 2022-06-24T21:09:24.208Z

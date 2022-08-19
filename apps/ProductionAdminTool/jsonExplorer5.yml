@@ -1,0 +1,20 @@
+id: jsonExplorer5
+type: widget
+subtype: JSONExplorerWidget
+template:
+  ordered:
+    - value: "{\t\n  \"name\": {{addEntForm2.data.entName2}}, \"description\":{{addEntForm2.data.entDesc2}},\n  \"permissions\": {\n    \"risks\": {{addEntForm2.data.entRisks2}},\n    \"teams\": {{addEntForm2.data.entTeams2}},\n    \"assets\": {{addEntForm2.data.entAssets2}},\n    \"apikeys\": {{addEntForm2.data.entApiKeys2}},\n    \"accounts\": {{addEntForm2.data.entAccounts2}},\n    \"entities\": {{addEntForm2.data.entEntities2}},\n    \"packages\":{{addEntForm2.data.entPackages2}},\n    \"profiles\": {{addEntForm2.data.entProfiles2}},\n    \"datastores\":{{addEntForm2.data.entDataStores2}},\n    \"identities\": {{addEntForm2.data.entIdentities2}},\n    \"automations\": {{addEntForm2.data.entAutomations2}},\n    \"integrations\": {{addEntForm2.data.entIntegrations2}},\n    \"querybuilder\": {{addEntForm2.data.entQueryBuilder2}},\n    \"scansettings\": {{addEntForm2.data.entScanSettings2}},\n    \"visualization\":{{addEntForm2.data.entVisualization2}},\n    \"risksignatures\":{{addEntForm2.data.entRiskSignatures2}}\n  },\n    \"limits\": {\n      \"teams\": {{addEntForm2.data.teamsLimit2}},\n      \"users\": {{addEntForm2.data.usersLimit2}},\n      \"automations\": {{addEntForm2.data.automationsLimit2}},\n      \"apiratelimits\": {{addEntForm2.data.apiRateLimit2}},\n      \"cloudaccounts\": {{addEntForm2.data.cloudAccLimit2}},\n      \"retainsnapshot\":{{addEntForm2.data.snapshotsLimit2}},\n      \"cloudScanfrequency\": {\n      \"FULL\": {\n        \"limit\": {{addEntForm2.data.cloudScanLimit2}},\n        \"durationSecs\":{{addEntForm2.data.cloudScanDuration2}} \n      },\n      \"INCREMENTAL\": {\n        \"intervalSecs\":{{addEntForm2.data.cloudScanInterval2}} \n      }\n      }\n    },\n    \"restrictions\": {\n    \t\"customroles\": {{addEntForm2.data.customRole2}},\n      \"vulnerabilityscan\": {{addEntForm2.data.vulnerabilityScan2}}\n    }\n}"
+    - html: false
+    - expandNodes: false
+    - hidden: 'true'
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer2
+    subcontainer: 6857d
+    row: 0.1999999999999993
+    col: 8
+    height: 10
+    width: 4
+createdAt: 2022-06-23T23:36:02.635Z

@@ -1,0 +1,31 @@
+id: formButton1
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: addEntForm
+    - hidden: ''
+    - text: Submit
+    - showInEditor: false
+    - tooltipText: ''
+    - submit: true
+    - iconBefore: ''
+    - events:
+        ordered: []
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: addEntForm
+    row: 2.4000000000000004
+    col: 8
+    height: 1
+    width: 4
+createdAt: 2022-06-12T19:47:24.203Z

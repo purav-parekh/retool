@@ -1,0 +1,275 @@
+id: Entitlements
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered:
+          - permissions:
+              ordered: []
+          - limits:
+              ordered: []
+          - Custom Column 1:
+              ordered: []
+          - restrictions:
+              ordered: []
+          - Custom Column 3:
+              ordered: []
+          - Custom Column 2:
+              ordered: []
+    - columnWidths:
+        - object:
+            id: description
+            value: 122.3125
+        - object:
+            id: Custom Column 1
+            value: 100.32500457763672
+        - object:
+            id: limits
+            value: 87
+        - object:
+            id: restrictions
+            value: 116.25
+        - object:
+            id: Custom Column 2
+            value: 410.70001220703125
+        - object:
+            id: id
+            value: 59.1875
+        - object:
+            id: name
+            value: 1235.8125
+    - showSummaryFooter: false
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered:
+          - Custom Column 3:
+              ordered:
+                - buttonType: action
+                - action: DELETE_Entitlements
+                - buttonDisabled: '{{viewPermission.data !== 1}}'
+          - Custom Column 2:
+              ordered:
+                - buttonDisabled: '{{viewPermission.data !== 1}}'
+                - buttonType: action
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered:
+          - permissions: Permissions
+          - restrictions: Restrictions
+          - name: Name
+          - Custom Column 1: Permissions
+          - Custom Column 2: Edit
+          - limits: Limits
+          - Custom Column 3: Delete
+          - id: ID
+          - description: Description
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - permissions: ''
+          - restrictions: ''
+          - name: ''
+          - updatedAt: ''
+          - Custom Column 1: ''
+          - Custom Column 2: ''
+          - limits: ''
+          - Custom Column 3: ''
+          - id: ''
+          - createdAt: ''
+          - description: ''
+    - columnFrozenAlignments:
+        ordered:
+          - Custom Column 2: null
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered:
+          - permissions: JsonDataCell
+          - limits: ModalDataCell
+          - Custom Column 1: ModalDataCell
+          - restrictions: ModalDataCell
+          - Custom Column 2: button
+          - Custom Column 3: button
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - permissions: false
+          - restrictions: false
+          - updatedAt: false
+          - Custom Column 1: false
+          - Custom Column 2: false
+          - limits: false
+          - Custom Column 3: false
+          - id: true
+          - createdAt: false
+          - description: false
+    - _columnSummaryTypes:
+        ordered:
+          - permissions: ''
+          - limits: ''
+          - Custom Column 1: ''
+          - restrictions: ''
+          - Custom Column 3: ''
+          - Custom Column 2: ''
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: '1'
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered: []
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: false
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ GET_Entitlements.data.data}}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered:
+          - permissions: left
+          - limits: left
+          - Custom Column 1: left
+          - restrictions: left
+          - Custom Column 2: left
+          - Custom Column 3: center
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: true
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered:
+          - Custom Column 3: false
+    - showRefreshButton: true
+    - pageSize: '20'
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered:
+          - permissions: ''
+          - limits: ''
+          - Custom Column 1: ''
+          - restrictions: ''
+          - Custom Column 3: ''
+          - Custom Column 2: ''
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: true
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered:
+          - Custom Column 1: false
+          - createdAt: false
+          - limits: false
+          - restrictions: false
+          - Custom Column 2: false
+          - Custom Column 3: false
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered:
+          - permissions: true
+    - columnMappers:
+        ordered:
+          - Custom Column 1: View
+          - limits: View
+          - restrictions: View
+          - Custom Column 2: Edit
+          - Custom Column 3: Delete
+    - showClearSelection: false
+    - doubleClickToEdit: false
+    - overflowType: scroll
+    - _reverseSortedDisplayedDataIndices: null
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns: []
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns:
+        - id
+        - name
+        - description
+        - Custom Column 1
+        - permissions
+        - limits
+        - restrictions
+        - createdAt
+        - updatedAt
+        - Custom Column 2
+        - Custom Column 3
+    - sortByRawValue:
+        ordered:
+          - restrictions: true
+    - calculatedColumns:
+        - Custom Column 1
+        - Custom Column 2
+        - Custom Column 3
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: true
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: PlansContainer
+    subcontainer: 9c2a1
+    height: 4.6
+    width: 12
+createdAt: 2022-06-10T00:16:05.270Z

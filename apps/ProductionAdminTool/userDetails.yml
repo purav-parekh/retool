@@ -1,0 +1,29 @@
+id: userDetails
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: right
+    - hidden: false
+    - imageWidth: fill
+    - showInEditor: false
+    - verticalAlign: center
+    - _defaultValue: ''
+    - tooltipText: ''
+    - value: >-
+        👋 **Hello {{ current_user.firstName  + ' ' + current_user.lastName + '
+        ' + '- ' + (current_user.groups[0].name).toUpperCase() }}!**
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: Header
+    subcontainer: 9c2a1
+    col: 9
+    height: 0.6
+    width: 3
+createdAt: 2022-06-10T02:23:34.354Z

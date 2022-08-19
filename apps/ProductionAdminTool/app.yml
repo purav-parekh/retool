@@ -1,0 +1,13 @@
+version: 43.0.9
+pageUuid: baec30ce-1e88-11ed-a2c5-3f09549017ae
+appTemplate:
+  folders:
+    - Teams_API
+    - Entities_API
+    - Entitlements_API
+    - Entitlements_Transformers
+    - Roles_API
+    - Users_API
+  rootScreen: null
+  version: 2.95.6
+  markdownLinkBehavior: always

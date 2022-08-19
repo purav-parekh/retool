@@ -1,0 +1,54 @@
+id: chart2
+type: widget
+subtype: PlotlyChartWidget
+template:
+  ordered:
+    - dataseries:
+        ordered: []
+    - isDataTemplateDirty: false
+    - datasource: ''
+    - isJsonTemplateDirty: true
+    - groupByDropdown: ''
+    - datasourceInputMode: javascript
+    - datasourceDataType: null
+    - layout: ''
+    - xAxisDropdown: ''
+    - data: |-
+        [{
+          labels:['Active','Invited'],
+          values:['{{getActiveUsersCount.data.totalRecords}}',{{getInvitedUsersCount.data.totalRecords}}],
+          type:"pie"
+        }]
+    - isStackSeriesEnabled: false
+    - xAxisTickFormat: ''
+    - skipDatasourceUpdate: false
+    - datasourceJS: ''
+    - yAxisTickFormat: ''
+    - datasourcePluginType: null
+    - xAxisType: default
+    - datasourcePluginId: null
+    - legendAlignment: right
+    - isLayoutJsonDirty: false
+    - chartType: pie
+    - title: User Status Distrubution
+    - xAxis: ''
+    - groupByMode: dropdown
+    - onPointSelectQuery: ''
+    - xAxisMode: dropdown
+    - shouldShowLegend: true
+    - yAxisTitle: ''
+    - selectedPoints:
+        array: []
+    - xAxisTitle: ''
+    - groupByJS: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer4
+    subcontainer: 935bf
+    row: 10.000000000000007
+    col: 8
+    height: 7
+    width: 4
+createdAt: 2022-08-03T22:12:14.935Z

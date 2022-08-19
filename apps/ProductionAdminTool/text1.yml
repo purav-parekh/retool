@@ -1,0 +1,31 @@
+id: text1
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - _defaultValue: ''
+    - tooltipText: ''
+    - value: >-
+        Are you sure you want to delete the
+        {{Entitlements.selectedRow.data.name}} plan? You will not be able to
+        revert back the changes.
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: Entitlements
+    subcontainer: Custom Column 3
+    row: 1.7999999999999998
+    col: 1
+    height: 0.6
+    width: 11
+createdAt: 2022-06-15T21:17:27.251Z

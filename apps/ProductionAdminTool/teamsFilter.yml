@@ -1,0 +1,20 @@
+id: teamsFilter
+type: function
+subtype: Function
+template:
+  ordered:
+    - funcBody: |-
+        const teams = {{planName?.value[0]}}
+        // const filters = {{switchGroup1.value}}
+        // const t = []
+        // for(let i =0;i<filters.length;i++){
+        //   let ts = teams?.filter((team) => {
+        //     return (team.planId) === filters[i]
+        //   })
+        //   t.push(...ts)
+        // }
+        return teams
+        // return t.length > 0 ? t : teams
+    - value: ''
+createdAt: 2022-06-12T18:40:42.740Z
+folder: Teams_API
