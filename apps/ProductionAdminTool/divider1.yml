@@ -1,0 +1,25 @@
+id: divider1
+type: widget
+subtype: DividerWidget
+template:
+  ordered:
+    - hidden: false
+    - maintainSpaceWhenHidden: false
+    - showInEditor: false
+    - tooltipText: ''
+    - horizontalAlign: center
+    - text: ''
+    - textSize: default
+    - style:
+        ordered:
+          - color: rgb(13, 13, 46)
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer4
+    subcontainer: 935bf
+    row: 17.000000000000007
+    height: 0.2
+    width: 12
+createdAt: 2022-08-03T22:21:42.040Z

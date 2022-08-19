@@ -1,0 +1,9 @@
+id: addEntitlementFormData
+type: function
+subtype: Function
+template:
+  ordered:
+    - funcBody: "const data = {\n  \"name\": {{entName.value}},\n  \"description\": {{entDesc.value}},\n  \"permissions\": {\n    \"risks\": {{entRisks.value}},\n    \"teams\": {{entTeams.value}},\n    \"assets\": {{entAssets.value}},\n    \"apikeys\": {{entApiKeys.value}},\n    \"accounts\": {{entAccounts.value}},\n    \"entities\": {{entEntities.value}},\n    \"packages\": {{entPackages.value}},\n    \"profiles\": {{entProfiles.value}},\n    \"datastores\":{{entDataStores.value}},\n    \"identities\": {{entIdentities.value}},\n    \"automations\": {{entAutomations.value}},\n    \"integrations\": {{entIntegrations.value}},\n    \"querybuilder\": {{entQueryBuilder.value}},\n    \"scansettings\": {{entScanSettings.value}},\n    \"visualization\": {{entVisualization.value}},\n    \"risksignatures\": {{entRiskSignatures.value}}\n  },\n    \"limits\": {\n      \"teams\": {{teamsLimit.value}},\n      \"users\": {{usersLimit.value}},\n      \"automations\": {{automationsLimit.value}},\n      \"apiratelimits\": {{apiRateLimit.value}},\n      \"cloudaccounts\": {{cloudAccLimit.value}},\n      \"retainsnapshot\": {{snapshotsLimit.value}},\n      \"cloudScanfrequency\": {\n      \"FULL\": {\n        \"limit\": {{cloudScanLimit.value}},\n        \"durationSecs\": {{cloudScanDuration.value}}\n      },\n      \"INCREMENTAL\": {\n        \"intervalSecs\": {{cloudScanInterval.value}}\n      }\n      }\n    },\n    \"restrictions\": {\n    \t\"customroles\": {{customRole.value}},\n      \"vulnerabilityscan\": {{vulnerabilityScan.value}}\n    }\n}\nreturn data"
+    - value: ''
+createdAt: 2022-06-12T22:14:55.853Z
+folder: Entitlements_Transformers

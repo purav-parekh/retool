@@ -1,0 +1,19 @@
+id: createEditPlanForm2
+type: widget
+subtype: GlobalWidget
+template:
+  ordered:
+    - showFetchingIndicator: boolean
+    - heightType: auto
+    - name: Create-Edit Plan Form
+    - pageUuid: 0530b90b-90bb-4159-8861-0a1af7a5e943
+    - childNamespace: createEditPlanForm2
+style:
+  ordered: []
+position2:
+  position2:
+    container: Entitlements
+    subcontainer: Custom Column 2
+    height: 4.2
+    width: 12
+createdAt: 2022-06-23T17:04:39.855Z

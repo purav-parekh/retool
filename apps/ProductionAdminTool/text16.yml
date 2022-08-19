@@ -1,0 +1,28 @@
+id: text16
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - _defaultValue: ''
+    - tooltipText: ''
+    - value: '**Total Teams**: {{ getIndividualUser.data.data.Teams.length}}'
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: usersTable
+    subcontainer: Custom Column 2
+    row: 4.800000000000001
+    col: 2
+    height: 0.6
+    width: 4
+createdAt: 2022-07-07T01:34:19.010Z

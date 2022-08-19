@@ -1,0 +1,35 @@
+id: customRole2
+type: widget
+subtype: CheckboxWidget2
+template:
+  ordered:
+    - hidden: false
+    - customValidation: ''
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - showInEditor: false
+    - _defaultValue: false
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: '{{Entitlements.selectedRow.data.restrictions.customroles}}'
+    - labelCaption: ''
+    - label: Custom Roles
+    - _validate: false
+    - invalid: false
+    - events:
+        ordered: []
+    - disabled: false
+    - labelPosition: right
+    - labelWrap: false
+    - maintainSpaceWhenHidden: false
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer3
+    subcontainer: 292f7
+    height: 0.6
+    width: 3
+createdAt: 2022-06-21T23:38:15.044Z

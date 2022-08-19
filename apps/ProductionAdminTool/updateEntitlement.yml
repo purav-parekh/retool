@@ -1,0 +1,69 @@
+id: updateEntitlement
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - showFailureToaster: true
+    - query: "const object = {\t\n  \"name\": addEntForm2.data.entName2,\n  \"description\":addEntForm2.data.entDesc2,\n  \"permissions\": {\n    \"risks\": addEntForm2.data.entRisks2,\n    \"teams\": addEntForm2.data.entTeams2,\n    \"assets\": addEntForm2.data.entAssets2,\n    \"apikeys\": addEntForm2.data.entApiKeys2,\n    \"accounts\": addEntForm2.data.entAccounts2,\n    \"entities\": addEntForm2.data.entEntities2,\n    \"packages\":addEntForm2.data.entPackages2,\n    \"profiles\": addEntForm2.data.entProfiles2,\n    \"datastores\":addEntForm2.data.entDataStores2,\n    \"identities\": addEntForm2.data.entIdentities2,\n    \"automations\": addEntForm2.data.entAutomations2,\n    \"integrations\": addEntForm2.data.entIntegrations2,\n    \"querybuilder\": addEntForm2.data.entQueryBuilder2,\n    \"scansettings\": addEntForm2.data.entScanSettings2,\n    \"visualization\":addEntForm2.data.entVisualization2,\n    \"risksignatures\":addEntForm2.data.entRiskSignatures2\n  },\n    \"limits\": {\n      \"teams\": addEntForm2.data.teamsLimit2,\n      \"users\": addEntForm2.data.usersLimit2,\n      \"automations\": addEntForm2.data.automationsLimit2,\n      \"apiratelimits\": addEntForm2.data.apiRateLimit2,\n      \"cloudaccounts\": addEntForm2.data.cloudAccLimit2,\n      \"retainsnapshot\":addEntForm2.data.snapshotsLimit2,\n      \"cloudScanfrequency\": {\n      \"FULL\": {\n        \"limit\": addEntForm2.data.cloudScanLimit2,\n        \"durationSecs\":addEntForm2.data.cloudScanDuration2 \n      },\n      \"INCREMENTAL\": {\n        \"intervalSecs\":addEntForm2.data.cloudScanInterval2 \n      }\n      }\n    },\n    \"restrictions\": {\n    \t\"customroles\": addEntForm2.data.customRole2,\n      \"vulnerabilityscan\": addEntForm2.data.vulnerabilityScan2\n    }\n}\nreturn object"
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - privateParams: []
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - metadata: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - runWhenPageLoads: false
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events: []
+    - queryTimeout: '10000'
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2022-06-21T23:43:54.902Z
+folder: Entitlements_API

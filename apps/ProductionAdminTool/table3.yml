@@ -1,0 +1,278 @@
+id: table3
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered:
+          - scansettings:
+              ordered:
+                - falseDisplayValue: x
+          - entities:
+              ordered:
+                - falseDisplayValue: x
+          - assets:
+              ordered:
+                - falseDisplayValue: x
+          - visualization:
+              ordered:
+                - falseDisplayValue: x
+          - risks:
+              ordered:
+                - falseDisplayValue: x
+          - accounts:
+              ordered:
+                - falseDisplayValue: x
+          - risksignatures:
+              ordered:
+                - falseDisplayValue: x
+          - profiles:
+              ordered:
+                - falseDisplayValue: x
+          - packages:
+              ordered:
+                - falseDisplayValue: x
+          - apikeys:
+              ordered:
+                - falseDisplayValue: x
+          - querybuilder:
+              ordered:
+                - falseDisplayValue: x
+          - teams:
+              ordered:
+                - falseDisplayValue: x
+          - identities:
+              ordered:
+                - falseDisplayValue: x
+          - automations:
+              ordered:
+                - falseDisplayValue: x
+          - datastores:
+              ordered:
+                - falseDisplayValue: x
+          - integrations:
+              ordered:
+                - falseDisplayValue: x
+    - columnWidths: []
+    - showSummaryFooter: false
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - scansettings: ''
+          - entities: ''
+          - assets: ''
+          - visualization: ''
+          - risks: ''
+          - accounts: ''
+          - risksignatures: ''
+          - profiles: ''
+          - packages: ''
+          - apikeys: ''
+          - querybuilder: ''
+          - teams: ''
+          - identities: ''
+          - automations: ''
+          - datastores: ''
+          - integrations: ''
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered:
+          - scansettings: CheckboxDataCell
+          - entities: CheckboxDataCell
+          - assets: CheckboxDataCell
+          - visualization: CheckboxDataCell
+          - risks: CheckboxDataCell
+          - accounts: CheckboxDataCell
+          - risksignatures: CheckboxDataCell
+          - profiles: CheckboxDataCell
+          - packages: CheckboxDataCell
+          - apikeys: CheckboxDataCell
+          - querybuilder: CheckboxDataCell
+          - teams: CheckboxDataCell
+          - identities: CheckboxDataCell
+          - automations: CheckboxDataCell
+          - datastores: CheckboxDataCell
+          - integrations: CheckboxDataCell
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered: []
+    - _columnSummaryTypes:
+        ordered:
+          - scansettings: checkedCount
+          - entities: checkedCount
+          - assets: checkedCount
+          - visualization: checkedCount
+          - risks: checkedCount
+          - accounts: checkedCount
+          - risksignatures: checkedCount
+          - profiles: checkedCount
+          - packages: checkedCount
+          - apikeys: checkedCount
+          - querybuilder: checkedCount
+          - teams: checkedCount
+          - identities: checkedCount
+          - automations: checkedCount
+          - datastores: checkedCount
+          - integrations: checkedCount
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: null
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered: []
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: true
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{Entitlements.selectedRow.data.permissions}}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered:
+          - scansettings: center
+          - entities: center
+          - assets: center
+          - visualization: center
+          - risks: center
+          - accounts: center
+          - risksignatures: center
+          - profiles: center
+          - packages: center
+          - apikeys: center
+          - querybuilder: center
+          - teams: center
+          - identities: center
+          - automations: center
+          - datastores: center
+          - integrations: center
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: true
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - showRefreshButton: true
+    - pageSize: '20'
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered:
+          - scansettings: ''
+          - entities: ''
+          - assets: ''
+          - visualization: ''
+          - risks: ''
+          - accounts: ''
+          - risksignatures: ''
+          - profiles: ''
+          - packages: ''
+          - apikeys: ''
+          - querybuilder: ''
+          - teams: ''
+          - identities: ''
+          - automations: ''
+          - datastores: ''
+          - integrations: ''
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: false
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered: []
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - doubleClickToEdit: true
+    - overflowType: pagination
+    - _reverseSortedDisplayedDataIndices: null
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns: []
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns: []
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container2
+    subcontainer: 9c2a1
+    height: 8
+    width: 12
+createdAt: 2022-06-11T21:29:20.135Z

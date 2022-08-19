@@ -1,0 +1,90 @@
+id: switchGroup3
+type: widget
+subtype: SwitchGroup
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+        - ''
+    - _values:
+        - active
+        - invited
+    - values:
+        array: []
+    - selectedIndexes:
+        array: []
+    - selectedItems:
+        array: []
+    - groupLayout: multiColumn
+    - hidden: false
+    - customValidation: ''
+    - data:
+        array: []
+    - maxCount: null
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - showInEditor: false
+    - _defaultValue:
+        array: []
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: '{{ [self.values[0]] }}'
+    - hiddenByIndex:
+        array: []
+    - labelCaption: ''
+    - labelWidth: '33'
+    - deprecatedLabels:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+    - _captionByIndex:
+        - ''
+        - ''
+    - label: ''
+    - _hasMigratedNestedItems: true
+    - captionByIndex:
+        array: []
+    - _validate: false
+    - itemMode: static
+    - labelWidthUnit: '%'
+    - invalid: false
+    - _tooltipByIndex:
+        - ''
+        - ''
+    - tooltipByIndex:
+        array: []
+    - events:
+        ordered: []
+    - _ids:
+        - 12b86
+        - 90c7c
+    - selectedLabels:
+        array: []
+    - disabled: false
+    - labelPosition: top
+    - minCount: null
+    - _labels:
+        - 'Active Users: {{getActiveUsersCount.data.totalRecords}}'
+        - 'Invited Users: {{getInvitedUsersCount.data.totalRecords}}'
+    - labelWrap: false
+    - disabledValues:
+        array: []
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - required: false
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer4
+    subcontainer: 935bf
+    row: -5.551115123125783e-17
+    col: 4
+    height: 0.6
+    width: 4
+createdAt: 2022-07-08T00:47:32.417Z

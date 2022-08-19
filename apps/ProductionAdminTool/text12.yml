@@ -1,0 +1,29 @@
+id: text12
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: center
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - _defaultValue: ''
+    - tooltipText: ''
+    - value: |-
+        #### You are editing 
+        ###### {{ usersTable.selectedRow.data.name }}
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: usersTable
+    subcontainer: Custom Column 2
+    col: 2
+    height: 0.6
+    width: 8
+createdAt: 2022-07-07T00:47:45.334Z

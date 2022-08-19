@@ -1,0 +1,28 @@
+id: icon1
+type: widget
+subtype: IconWidget
+template:
+  ordered:
+    - horizontalAlign: center
+    - clickable: false
+    - hidden: false
+    - showInEditor: false
+    - tooltipText: ''
+    - style:
+        ordered:
+          - color: rgba(250, 3, 3, 1)
+    - altText: ''
+    - icon: line/interface-delete-circle
+    - events:
+        ordered: []
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: Entitlements
+    subcontainer: Custom Column 3
+    row: 2
+    height: 0.7999999999999999
+    width: 1
+createdAt: 2022-06-15T21:19:49.038Z

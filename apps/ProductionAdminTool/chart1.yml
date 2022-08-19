@@ -1,0 +1,71 @@
+id: chart1
+type: widget
+subtype: PlotlyChartWidget
+template:
+  ordered:
+    - dataseries:
+        ordered:
+          - '0':
+              ordered:
+                - label: totalRecords
+                - datasource: '{{GET_Roles.data[''totalRecords'']}}'
+                - chartType: pie
+                - aggregationType: sum
+                - color: null
+                - colors:
+                    ordered: []
+                - visible: true
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+          - '1':
+              ordered:
+                - label: data
+                - datasource: '{{GET_Roles.data[''data'']}}'
+                - chartType: pie
+                - aggregationType: sum
+                - color: null
+                - colors:
+                    ordered: []
+                - visible: false
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+    - isDataTemplateDirty: true
+    - datasource: ''
+    - isJsonTemplateDirty: true
+    - groupByDropdown: ''
+    - datasourceInputMode: javascript
+    - datasourceDataType: object
+    - layout: ''
+    - xAxisDropdown: statusCode
+    - data: '{{planDistributionPie.value}}'
+    - isStackSeriesEnabled: false
+    - xAxisTickFormat: ''
+    - skipDatasourceUpdate: false
+    - datasourceJS: '{{GET_Roles.data}}'
+    - yAxisTickFormat: ''
+    - datasourcePluginType: null
+    - xAxisType: default
+    - datasourcePluginId: null
+    - legendAlignment: left
+    - isLayoutJsonDirty: false
+    - chartType: pie
+    - title: Team Plan Distribution
+    - xAxis: '{{GET_Roles.data.statusCode}}'
+    - groupByMode: dropdown
+    - onPointSelectQuery: ''
+    - xAxisMode: dropdown
+    - shouldShowLegend: true
+    - yAxisTitle: ''
+    - selectedPoints:
+        array: []
+    - xAxisTitle: ''
+    - groupByJS: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: teamsContainer
+    subcontainer: 7c084
+    row: 15.600000000000005
+    col: 4
+    height: 7
+    width: 5
+createdAt: 2022-08-03T21:59:14.097Z

@@ -1,0 +1,75 @@
+id: PATCH_Entitlements
+type: datasource
+subtype: RESTQuery
+resourceName: 2ee3f468-6b2c-4418-b69a-481d63ee08e6
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - paginationLimit: ''
+    - body: >-
+        [{"key":"name","value":"{{jsonExplorer5.value.name}}"},{"key":"description","value":"{{jsonExplorer5.value.description}}"},{"key":"permissions","value":"{{jsonExplorer5.value.permissions}}"},{"key":"limits","value":"{{jsonExplorer5.value.limits}}"},{"key":"restrictions","value":"{{jsonExplorer5.value.restrictions}}"}]
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - successMessage: Plan successfully updated.
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - paginationPaginationField: ''
+    - headers: '[]'
+    - showFailureToaster: true
+    - paginationEnabled: false
+    - query: entitlements/{{ Entitlements.selectedRow.data.id}}
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - privateParams: []
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - cookies: ''
+    - metadata: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - confirmationMessage: >-
+        ✅  Are you sure you want to edit the
+        **{{Entitlements.selectedRow.data.name}}** plan?
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - runWhenPageLoads: false
+    - transformer: "const data = {\n  \"name\": {{entName.value}},\n  \"description\": {{entDesc.value}},\n  \"permissions\": {\n    \"risks\": {{entRisks.value}},\n    \"teams\": {{entTeams.value}},\n    \"assets\": {{entAssets.value}},\n    \"apikeys\": {{entApiKeys.value}},\n    \"accounts\": {{entAccounts.value}},\n    \"entities\": {{entEntities.value}},\n    \"packages\": {{entPackages.value}},\n    \"profiles\": {{entProfiles.value}},\n    \"datastores\":{{entDataStores.value}},\n    \"identities\": {{entIdentities.value}},\n    \"automations\": {{entAutomations.value}},\n    \"integrations\": {{entIntegrations.value}},\n    \"querybuilder\": {{entQueryBuilder.value}},\n    \"scansettings\": {{entScanSettings.value}},\n    \"visualization\": {{entVisualization.value}},\n    \"risksignatures\": {{entRiskSignatures.value}}\n  },\n    \"limits\": {\n      \"teams\": {{teamsLimit.value}},\n      \"users\": {{usersLimit.value}},\n      \"automations\": {{automationsLimit.value}},\n      \"apiratelimits\": {{apiRateLimit.value}},\n      \"cloudaccounts\": {{cloudAccLimit.value}},\n      \"retainsnapshot\": {{snapshotsLimit.value}},\n      \"cloudScanfrequency\": {\n      \"FULL\": {\n        \"limit\": {{cloudScanLimit.value}},\n        \"durationSecs\": {{cloudScanDuration.value}}\n      },\n      \"INCREMENTAL\": {\n        \"intervalSecs\": {{cloudScanInterval.value}}\n      }\n      }\n    },\n    \"restrictions\": {\n    \t\"customroles\": {{customRole.value}},\n      \"vulnerabilityscan\": {{vulnerabilityScan.value}}\n    }\n}\nreturn data"
+    - events: []
+    - queryTimeout: '10000'
+    - requireConfirmation: true
+    - type: PATCH
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - bodyType: json
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: '5'
+createdAt: 2022-06-15T22:01:14.889Z
+folder: Entitlements_API

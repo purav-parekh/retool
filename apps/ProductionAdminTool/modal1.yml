@@ -1,0 +1,28 @@
+id: modal1
+type: widget
+subtype: ModalWidget
+template:
+  ordered:
+    - opened: false
+    - modalOverflowType: scroll
+    - onModalClose: ''
+    - modalHeightType: fixed
+    - tooltipText: ''
+    - modalHeight: 525px
+    - onModalOpen: ''
+    - modalWidth: 80%
+    - closeOnOutsideClick: true
+    - loading: ''
+    - disabled: '{{!getIndividualUser.data.data.Teams.length}}'
+    - buttonText: View Teams
+style:
+  ordered: []
+position2:
+  position2:
+    container: usersTable
+    subcontainer: Custom Column 2
+    row: 4.6
+    col: 7
+    height: 1
+    width: 4
+createdAt: 2022-07-07T23:50:59.490Z

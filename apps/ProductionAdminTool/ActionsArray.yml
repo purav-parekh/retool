@@ -1,0 +1,13 @@
+id: ActionsArray
+type: function
+subtype: Function
+template:
+  ordered:
+    - funcBody: >-
+        const permissions =
+        ['list','get','create','destroy','destroyAll','update','replace']
+
+        return permissions
+    - value: ''
+createdAt: 2022-06-11T20:53:43.497Z
+folder: Entitlements_Transformers

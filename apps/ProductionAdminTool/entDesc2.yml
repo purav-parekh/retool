@@ -1,0 +1,52 @@
+id: entDesc2
+type: widget
+subtype: TextAreaWidget
+template:
+  ordered:
+    - spellCheck: false
+    - readOnly: false
+    - autoResize: true
+    - showCharacterCount: false
+    - autoComplete: false
+    - maxLength: null
+    - hidden: false
+    - customValidation: ''
+    - hideValidationMessage: false
+    - minLines: 2
+    - validationMessage: ''
+    - showInEditor: false
+    - _defaultValue: ''
+    - pattern: ''
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: '{{Entitlements.selectedRow.data.description}}'
+    - labelCaption: ''
+    - labelWidth: '30'
+    - autoFill: ''
+    - placeholder: Enter value
+    - label: Description
+    - _validate: false
+    - labelWidthUnit: '%'
+    - invalid: false
+    - minLength: null
+    - inputTooltip: ''
+    - events:
+        ordered: []
+    - autoCapitalize: none
+    - maxLines: null
+    - loading: false
+    - disabled: false
+    - labelPosition: left
+    - labelWrap: false
+    - maintainSpaceWhenHidden: false
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: addEntForm2
+    col: 2
+    height: 1
+    width: 4
+createdAt: 2022-06-21T23:37:23.763Z

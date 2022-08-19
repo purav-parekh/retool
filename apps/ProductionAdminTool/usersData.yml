@@ -1,0 +1,15 @@
+id: usersData
+type: function
+subtype: Function
+template:
+  ordered:
+    - funcBody: >-
+        // const activeUsers = 
+
+        return {{GET_Users.data.data}}.filter((user) => user.status ===
+        'active').length
+
+        // return activeUsers.length
+    - value: ''
+createdAt: 2022-07-07T01:31:33.799Z
+folder: Users_API

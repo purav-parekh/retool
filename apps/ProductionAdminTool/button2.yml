@@ -1,0 +1,45 @@
+id: button2
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: ''
+    - hidden: false
+    - text: Confirm
+    - showInEditor: false
+    - tooltipText: ''
+    - style:
+        ordered:
+          - background: danger
+    - styleVariant: solid
+    - submit: false
+    - iconBefore: ''
+    - events:
+        - ordered:
+            - event: click
+            - type: datasource
+            - method: trigger
+            - pluginId: DELETE_Entitlements
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: Entitlements
+    subcontainer: Custom Column 3
+    row: 3.1999999999999997
+    col: 8
+    height: 1
+    width: 4
+createdAt: 2022-06-15T21:13:09.924Z

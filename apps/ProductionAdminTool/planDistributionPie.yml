@@ -1,0 +1,19 @@
+id: planDistributionPie
+type: function
+subtype: Function
+template:
+  ordered:
+    - funcBody: >-
+        const plans = ['Free','Premium','Enterprise'];
+
+        const counts =
+        [{{getFreeTeamsCount.data.totalRecords}},{{getPremiumTeamsCount.data.totalRecords}},{{getEnterpriseTeamsCount.data.totalRecords}}]; 
+
+        return [{
+            labels:plans, 
+            values:counts ,
+            type: "pie",
+          }]
+    - value: ''
+createdAt: 2022-08-03T22:05:28.484Z
+folder: Teams_API

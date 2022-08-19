@@ -1,0 +1,27 @@
+id: text21
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - _defaultValue: ''
+    - tooltipText: ''
+    - value: '**Status**: {{ usersTable.selectedRow.data.status.toUpperCase()}}'
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container11
+    subcontainer: 86b79
+    row: 1.1999999999999986
+    height: 0.6
+    width: 4
+createdAt: 2022-07-13T00:05:32.476Z

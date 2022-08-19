@@ -1,0 +1,424 @@
+id: teamsTable
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: true
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered:
+          - riskEmailEnabled:
+              ordered:
+                - falseDisplayValue: empty
+          - createdAt:
+              ordered:
+                - manageTimeZone: true
+                - dateFormat: MMM d, yyyy
+                - valueTimeZone: local
+                - displayTimeZone: local
+          - Custom Column 1:
+              ordered: []
+          - updatedAt:
+              ordered:
+                - manageTimeZone: true
+                - dateFormat: MMM d, yyyy
+                - valueTimeZone: local
+                - displayTimeZone: local
+          - Custom Column 2:
+              ordered: []
+          - isEnabled:
+              ordered:
+                - falseDisplayValue: x
+          - Custom Column 4:
+              ordered: []
+    - columnWidths:
+        - object:
+            id: riskEmailEnabled
+            value: 141
+        - object:
+            id: lastRiskEmailSentAt
+            value: 147
+        - object:
+            id: plan
+            value: 103.59375
+        - object:
+            id: planId
+            value: 88.609375
+        - object:
+            id: name
+            value: 246.703125
+        - object:
+            id: id
+            value: 76
+        - object:
+            id: createdAt
+            value: 169.453125
+        - object:
+            id: Custom Column 1
+            value: 471.734375
+        - object:
+            id: updatedAt
+            value: 167.10000610351562
+        - object:
+            id: Custom Column 3
+            value: 126
+    - showSummaryFooter: false
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered:
+          - Custom Column 3:
+              ordered:
+                - buttonType: internal-url
+                - internalUrlPath: 9e18942a-ff10-11ec-96c5-d33f65497e01
+                - newWindow: true
+                - internalUrlQuery: >-
+                    "[{\"key\":\"teamId\",\"value\":\"{{teamsTable.selectedRow.data.id}}\"}]"
+          - Custom Column 5:
+              ordered:
+                - buttonType: export
+                - action: teamsTableTrigger
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered:
+          - name: Team Name
+          - updatedAt: Last Updated At
+          - planName: Plan
+          - Custom Column 1: Plan
+          - Custom Column 2: Actions
+          - Custom Column 3: View Team Statistics
+          - Custom Column 4: 'Total Users '
+          - id: TeamId
+          - createdAt: Created At
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - '11': ''
+          - '22': ''
+          - '33': ''
+          - '44': ''
+          - '55': ''
+          - '66': ''
+          - '77': ''
+          - '88': ''
+          - '99': ''
+          - '12': ''
+          - '23': ''
+          - '34': ''
+          - '45': ''
+          - '56': ''
+          - '67': ''
+          - '78': ''
+          - '89': ''
+          - lastRiskEmailSentAt: ''
+          - '13': ''
+          - '24': ''
+          - '35': ''
+          - '46': ''
+          - '57': ''
+          - '68': ''
+          - '79': ''
+          - '14': ''
+          - '25': ''
+          - '36': ''
+          - '47': ''
+          - '58': ''
+          - '69': ''
+          - '15': ''
+          - planId: ''
+          - '26': ''
+          - '37': ''
+          - '48': ''
+          - '59': ''
+          - '16': ''
+          - '27': ''
+          - '38': ''
+          - '49': ''
+          - '17': ''
+          - '28': ''
+          - '39': ''
+          - '18': ''
+          - '29': ''
+          - Users: ''
+          - '19': ''
+          - plan: ''
+          - name: ''
+          - updatedAt: ''
+          - '0': ''
+          - '1': ''
+          - '2': ''
+          - '3': ''
+          - '4': ''
+          - riskEmailEnabled: ''
+          - planName: ''
+          - '5': ''
+          - '6': ''
+          - Custom Column 1: ''
+          - '7': ''
+          - Custom Column 2: ''
+          - isEnabled: ''
+          - '90': ''
+          - '8': ''
+          - Custom Column 3: ''
+          - '80': ''
+          - '91': ''
+          - '9': ''
+          - Custom Column 4: ''
+          - '70': ''
+          - '81': ''
+          - '92': ''
+          - Custom Column 5: ''
+          - '60': ''
+          - '71': ''
+          - '82': ''
+          - '93': ''
+          - id: ''
+          - createdAt: ''
+          - '50': ''
+          - '61': ''
+          - '72': ''
+          - '83': ''
+          - '94': ''
+          - '40': ''
+          - '51': ''
+          - '62': ''
+          - '73': ''
+          - '84': ''
+          - '95': ''
+          - '30': ''
+          - '41': ''
+          - '52': ''
+          - '63': ''
+          - '74': ''
+          - '85': ''
+          - '96': ''
+          - '20': ''
+          - '31': ''
+          - '42': ''
+          - '53': ''
+          - '64': ''
+          - '75': ''
+          - '86': ''
+          - '97': ''
+          - '10': ''
+          - '21': ''
+          - '32': ''
+          - '43': ''
+          - '54': ''
+          - '65': ''
+          - '76': ''
+          - '87': ''
+          - '98': ''
+    - columnFrozenAlignments:
+        ordered:
+          - Custom Column 1: null
+          - Custom Column 3: right
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered:
+          - riskEmailEnabled: default
+          - createdAt: DateTimeDataCell
+          - Custom Column 1: TextDataCell
+          - updatedAt: DateTimeDataCell
+          - Custom Column 2: ModalDataCell
+          - isEnabled: CheckboxDataCell
+          - Custom Column 3: button
+          - Custom Column 4: ModalDataCell
+          - Custom Column 5: button
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - lastRiskEmailSentAt: false
+          - planId: false
+          - Users: false
+          - plan: true
+          - updatedAt: true
+          - riskEmailEnabled: false
+          - planName: true
+          - Custom Column 1: false
+          - Custom Column 3: false
+          - Custom Column 5: false
+          - createdAt: true
+    - _columnSummaryTypes:
+        ordered:
+          - riskEmailEnabled: ''
+          - createdAt: ''
+          - Custom Column 1: ''
+          - updatedAt: ''
+          - Custom Column 2: ''
+          - isEnabled: checkedCount
+          - Custom Column 4: ''
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: null
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered: []
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: true
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: true
+    - data: '{{teamsFilter.value}}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: id
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered:
+          - plan: center
+          - name: center
+          - updatedAt: center
+          - riskEmailEnabled: center
+          - planName: center
+          - Custom Column 1: center
+          - Custom Column 2: center
+          - isEnabled: center
+          - Custom Column 3: left
+          - Custom Column 4: center
+          - Custom Column 5: left
+          - id: center
+          - createdAt: center
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: true
+    - sortedDesc: false
+    - customButtonName: Refresh Data
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - showRefreshButton: true
+    - pageSize: '20'
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: GET_Teams
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered:
+          - riskEmailEnabled: ''
+          - createdAt: ''
+          - Custom Column 1: ''
+          - updatedAt: ''
+          - Custom Column 2: ''
+          - isEnabled: ''
+          - Custom Column 4: ''
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: true
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - events: []
+    - totalRowCount: '{{planName.value[1]}}'
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No teams found
+    - columnEditable:
+        ordered:
+          - Custom Column 1: false
+          - Custom Column 2: false
+          - Custom Column 3: false
+          - Custom Column 4: false
+          - Custom Column 5: false
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered:
+          - planName: false
+          - Custom Column 1: true
+          - Custom Column 2: true
+    - columnMappers:
+        ordered:
+          - Custom Column 1: '{{planName.value[i]}}'
+          - createdAt: '{{new Date(self)}}'
+          - updatedAt: '{{new Date(self)}}'
+          - Custom Column 2: Update Team Plan
+          - Custom Column 3: View Statistics
+          - Custom Column 4: '{{teamsTable.data[i].Users.length}}'
+          - Custom Column 5: Change Plan
+    - showClearSelection: false
+    - doubleClickToEdit: false
+    - overflowType: pagination
+    - _reverseSortedDisplayedDataIndices: null
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns: []
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns:
+        - id
+        - name
+        - planName
+        - Custom Column 1
+        - isEnabled
+        - Users
+        - Custom Column 3
+        - planId
+        - createdAt
+        - updatedAt
+        - Custom Column 4
+        - Custom Column 2
+        - Custom Column 5
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns:
+        - Custom Column 1
+        - Custom Column 2
+        - Custom Column 3
+        - Custom Column 4
+        - Custom Column 5
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: teamsContainer
+    subcontainer: 7c084
+    row: 0.9999999999999998
+    height: 13.999999999999998
+    width: 12
+createdAt: 2022-06-10T22:44:53.372Z

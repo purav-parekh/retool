@@ -1,0 +1,50 @@
+id: keyValue4
+type: widget
+subtype: KeyValueMapWidget
+template:
+  ordered:
+    - rowHeaderNames:
+        ordered: []
+    - rowFormats:
+        ordered: []
+    - valueTitle: Value
+    - data: '{{Entitlements.selectedRow.data.limits.cloudScanfrequency.INCREMENTAL}}'
+    - prevRowMappers:
+        ordered: []
+    - rowMappersRenderAsHTML:
+        ordered: []
+    - rowVisibility:
+        ordered:
+          - a: true
+          - b: true
+          - c: true
+          - FULL: true
+          - INCREMENTAL: true
+          - limit: true
+          - durationSecs: true
+          - intervalSecs: true
+    - prevRowFormats:
+        ordered: []
+    - rowMappers:
+        ordered: []
+    - rows:
+        - a
+        - b
+        - c
+        - FULL
+        - INCREMENTAL
+        - limit
+        - durationSecs
+        - intervalSecs
+    - keyTitle: Key
+style:
+  ordered: []
+position2:
+  position2:
+    container: permissionsContainer
+    subcontainer: 976be
+    row: 2.4
+    col: 6
+    height: 2.8
+    width: 4
+createdAt: 2022-06-13T23:12:53.731Z

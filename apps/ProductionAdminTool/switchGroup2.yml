@@ -1,0 +1,88 @@
+id: switchGroup2
+type: widget
+subtype: SwitchGroup
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+        - ''
+    - _values:
+        - 'true'
+        - 'false'
+    - values: '{{ item }}'
+    - selectedIndexes:
+        array: []
+    - selectedItems:
+        array: []
+    - groupLayout: wrap
+    - hidden: false
+    - customValidation: ''
+    - data: '{{ planName.value }}'
+    - maxCount: null
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - showInEditor: false
+    - _defaultValue:
+        array: []
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: ''
+    - style:
+        ordered:
+          - checkedBackground: rgb(80, 200, 120)
+          - uncheckedBackground: ''
+          - border: ''
+    - hiddenByIndex: ''
+    - labelCaption: ''
+    - hideLabel: true
+    - labelWidth: '33'
+    - deprecatedLabels:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+    - _captionByIndex:
+        - ''
+        - ''
+    - label: Filters
+    - _hasMigratedNestedItems: true
+    - captionByIndex: ''
+    - _validate: false
+    - itemMode: static
+    - labelWidthUnit: '%'
+    - invalid: false
+    - _tooltipByIndex:
+        - ''
+        - ''
+    - tooltipByIndex: ''
+    - events:
+        ordered: []
+    - _ids:
+        - ee7f8
+        - 1b77e
+    - selectedLabels:
+        array: []
+    - disabled: 'true'
+    - labelPosition: top
+    - minCount: null
+    - _labels:
+        - Enabled ({{getIsEnabledCount.data.totalRecords||'-'}})
+        - Disabled ({{getDisabledCount.data.totalRecords}})
+    - labelWrap: true
+    - disabledValues:
+        array: []
+    - disabledByIndex: ''
+    - maintainSpaceWhenHidden: false
+    - required: false
+    - labels: '{{ _.startCase(item) }}'
+style:
+  ordered: []
+position2:
+  position2:
+    container: teamsContainer
+    subcontainer: 7c084
+    col: 6
+    height: 0.6
+    width: 3
+createdAt: 2022-07-08T00:17:00.952Z

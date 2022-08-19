@@ -1,0 +1,47 @@
+id: addEntForm2
+type: widget
+subtype: FormWidget2
+template:
+  ordered:
+    - disableSubmit: '{{viewPermission.data !== 1}}'
+    - heightType: auto
+    - resetAfterSubmit: true
+    - submitting: false
+    - hidden: false
+    - data:
+        object: {}
+    - showHeader: false
+    - hoistFetching: true
+    - initialData: null
+    - showInEditor: false
+    - tooltipText: ''
+    - invalid: false
+    - showFooter: true
+    - events:
+        - ordered:
+            - method: trigger
+            - enabled: ''
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: PATCH_Entitlements
+            - waitType: debounce
+            - event: submit
+            - type: datasource
+            - waitMs: '0'
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - requireValidation: true
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer3
+    subcontainer: dffac
+    row: -1.7763568394002505e-15
+    height: 21
+    width: 12
+createdAt: 2022-06-21T23:37:19.229Z
