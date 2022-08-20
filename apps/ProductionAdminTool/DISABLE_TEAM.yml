@@ -1,7 +1,8 @@
 id: DISABLE_TEAM
 type: datasource
 subtype: RESTQuery
-resourceName: 2ee3f468-6b2c-4418-b69a-481d63ee08e6
+resourceName: bbea7df6-e96f-456e-b743-b9b98a2a0968
+resourceDisplayName: ConfigServiceAPI
 template:
   ordered:
     - queryRefreshTime: ''
